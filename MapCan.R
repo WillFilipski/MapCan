@@ -59,7 +59,7 @@ ggplot() +
     geom_sf(data = cdn_sf, color = "white", fill = "black"),
     id = 'cdn') +
   with_mask(
-    geom_sf(data = test2$geometry, color = NA, aes(fill = test2$max_party)),
+    geom_sf(data = test2$geometry, color = "white", lwd = 1, aes(fill = test2$max_party)),
     mask = ch_alpha('cdn')) +
   scale_fill_manual(drop = FALSE,
     values = party_colour,
