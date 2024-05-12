@@ -13,4 +13,4 @@ As the files are too large to be uploaded, they will need to be downloaded prior
 ### Sample Output
 Here is a sample output of the R code. Future versions will include relative colouring based on the win margins.
 
-![Alt text](/relative/path/to/img.jpg?raw=true)
+![Alt text](/gitPLot2.png?raw=true)
